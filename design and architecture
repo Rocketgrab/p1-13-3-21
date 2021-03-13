@@ -1,0 +1,32 @@
+//HTML, CSS and JS for frontend
+//Node, express, mongoose for backend
+//login, reset, crud, api recieving and sending
+//server, app, data, routes, models/classes, errors, 
+//C:\Users\Keita Programming\Desktop\project1\public\home.html
+
+SERVER
+--> nodeJs (backend framework)
+    http
+        https://nodejs.org/api/http.html
+        http is a module in node.  Node.js needs to create http/https servers, hence we have to import the http module in order to create an HTTP Server. Thus,
+        var http = require('http') is just to import the built-in http module, so that we can create http server which will respond to our requests. 
+        After importing the module, a server can be created by using the createServer() method offered by http module var server = http.createServer(handleRequest);
+    
+    express (routing and middleware framework)
+            https://expressjs.com/en/guide/using-middleware.html
+             Uses middleware functions to handle the following;
+             -Execute any code
+             -Make changes to teh request and response objects
+             -End the request-response cycle
+             -Call the next middleware function in the stack
+        app (handles individual routes via the route-handler model)
+
+HTML FILE
+
+CSS FILE
+
+HOSTING
+--> find a way to set it up so it's a dynamic, scalable setup instead of static
+Deploy MEVN stack app on amazon ec2
+        wordpress sites
+        shopify sites
